@@ -1,0 +1,52 @@
+.monagement{
+    width: 1105px;
+    height: 1719px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .monagement_box{
+        width: 1105px;
+        height: 473px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width: 539px;
+            height: 473px;
+        }
+        .text{
+            width: 486px;
+            height: auto;
+            h2{
+                font-size: 32px;
+                color: white;
+                padding: 15px 0px 0px 0px;
+            }
+            p{
+                color: white;
+                font-size: 16px;
+                padding: 15px 0px 0px 0px;
+            }
+            .icon{
+                width: 430px;
+                height: 52px;
+        
+                display: flex;
+                align-items: center;
+                margin: 20px 0px;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+                p{
+                    font-size: 16px;
+                    color: white;
+                    padding: 15px 20px;
+                    
+                }
+            }
+        }
+    }
+}

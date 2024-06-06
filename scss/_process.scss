@@ -1,0 +1,55 @@
+.process{
+    width: 963px;
+    height: 469px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 32px;
+    }
+    p{
+        text-align: center;
+        width: 542px;
+        font-size: 16px;
+        color: white;
+        padding: 20px 0px 30px 0px;
+    }
+    .sms{
+        width: 963px;
+        height: 98px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 30px 0px;
+       
+      .sms_item{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .sms_text{
+            width: 274px;
+            height: 59px;
+            background-color: white;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            p{
+                font-size: 16px;
+                color: black;
+            }
+        }
+      }
+    }
+    .process_btn{
+        background-color: #02897A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 30px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
