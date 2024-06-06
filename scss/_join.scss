@@ -5,7 +5,22 @@
     border-radius: 32px;
     margin: auto;
     margin-top: 150px;
-    p{
-        
+    display: flex;
+    &__title{
+        width: 55%;
+        p{
+            color: white;
+            font-size: 32px;
+            padding: 49px 51px;
+        }
+        button{
+            padding: 13px 33px;
+            background-color: white;
+            color: #02897A;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            margin: 0px 51px;
+        }
     }
 }
